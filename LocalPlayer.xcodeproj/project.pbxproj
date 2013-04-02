@@ -121,10 +121,10 @@
 			children = (
 				DE8AF578170A883A0064B975 /* LPAppDelegate.h */,
 				DE8AF579170A883A0064B975 /* LPAppDelegate.m */,
-				DE8AF581170A883A0064B975 /* MainStoryboard_iPhone.storyboard */,
-				DE8AF584170A883A0064B975 /* MainStoryboard_iPad.storyboard */,
 				DE8AF587170A883A0064B975 /* LPViewController.h */,
 				DE8AF588170A883A0064B975 /* LPViewController.m */,
+				DE8AF581170A883A0064B975 /* MainStoryboard_iPhone.storyboard */,
+				DE8AF584170A883A0064B975 /* MainStoryboard_iPad.storyboard */,
 				DE8AF570170A883A0064B975 /* Supporting Files */,
 			);
 			path = LocalPlayer;
