@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE585C86170AFB05002C5195 /* albumart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE585C85170AFB05002C5195 /* albumart.jpg */; };
+		DE585C8A170B0E54002C5195 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE585C87170B0E54002C5195 /* AudioToolbox.framework */; };
+		DE585C8B170B0E54002C5195 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE585C88170B0E54002C5195 /* AVFoundation.framework */; };
+		DE585C8C170B0E54002C5195 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE585C89170B0E54002C5195 /* MediaPlayer.framework */; };
+		DE585C8F170B1312002C5195 /* LPAudioHost.m in Sources */ = {isa = PBXBuildFile; fileRef = DE585C8E170B1312002C5195 /* LPAudioHost.m */; };
+		DE585C92170B236F002C5195 /* LPEqualizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE585C91170B236F002C5195 /* LPEqualizerViewController.m */; };
+		DE585C95170B5BA9002C5195 /* LPLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE585C94170B5BA9002C5195 /* LPLocationViewController.m */; };
+		DE585CA2170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = DE585C9E170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.c */; };
+		DE585CA3170BD97F002C5195 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DE585CA0170BD97F002C5195 /* TPCircularBuffer.c */; };
+		DE585CA5170BEFAB002C5195 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE585CA4170BEFAB002C5195 /* CoreMedia.framework */; };
 		DE8AF56A170A883A0064B975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8AF569170A883A0064B975 /* UIKit.framework */; };
 		DE8AF56C170A883A0064B975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8AF56B170A883A0064B975 /* Foundation.framework */; };
 		DE8AF56E170A883A0064B975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8AF56D170A883A0064B975 /* CoreGraphics.framework */; };
@@ -37,6 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE585C85170AFB05002C5195 /* albumart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumart.jpg; sourceTree = "<group>"; };
+		DE585C87170B0E54002C5195 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DE585C88170B0E54002C5195 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DE585C89170B0E54002C5195 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DE585C8D170B1312002C5195 /* LPAudioHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAudioHost.h; sourceTree = "<group>"; };
+		DE585C8E170B1312002C5195 /* LPAudioHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAudioHost.m; sourceTree = "<group>"; };
+		DE585C90170B236F002C5195 /* LPEqualizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPEqualizerViewController.h; sourceTree = "<group>"; };
+		DE585C91170B236F002C5195 /* LPEqualizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPEqualizerViewController.m; sourceTree = "<group>"; };
+		DE585C93170B5BA9002C5195 /* LPLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLocationViewController.h; sourceTree = "<group>"; };
+		DE585C94170B5BA9002C5195 /* LPLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLocationViewController.m; sourceTree = "<group>"; };
+		DE585C9E170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
+		DE585C9F170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
+		DE585CA0170BD97F002C5195 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		DE585CA1170BD97F002C5195 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		DE585CA4170BEFAB002C5195 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		DE8AF566170A883A0064B975 /* LocalPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8AF569170A883A0064B975 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE8AF56B170A883A0064B975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE585CA5170BEFAB002C5195 /* CoreMedia.framework in Frameworks */,
+				DE585C8A170B0E54002C5195 /* AudioToolbox.framework in Frameworks */,
+				DE585C8B170B0E54002C5195 /* AVFoundation.framework in Frameworks */,
+				DE585C8C170B0E54002C5195 /* MediaPlayer.framework in Frameworks */,
 				DE8AF56A170A883A0064B975 /* UIKit.framework in Frameworks */,
 				DE8AF56C170A883A0064B975 /* Foundation.framework in Frameworks */,
 				DE8AF56E170A883A0064B975 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +115,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE585C9D170BD97F002C5195 /* TPCircularBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				DE585C9E170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.c */,
+				DE585C9F170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.h */,
+				DE585CA0170BD97F002C5195 /* TPCircularBuffer.c */,
+				DE585CA1170BD97F002C5195 /* TPCircularBuffer.h */,
+			);
+			path = TPCircularBuffer;
+			sourceTree = "<group>";
+		};
 		DE8AF55D170A883A0064B975 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +148,10 @@
 		DE8AF568170A883A0064B975 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE585CA4170BEFAB002C5195 /* CoreMedia.framework */,
+				DE585C87170B0E54002C5195 /* AudioToolbox.framework */,
+				DE585C88170B0E54002C5195 /* AVFoundation.framework */,
+				DE585C89170B0E54002C5195 /* MediaPlayer.framework */,
 				DE8AF569170A883A0064B975 /* UIKit.framework */,
 				DE8AF56B170A883A0064B975 /* Foundation.framework */,
 				DE8AF56D170A883A0064B975 /* CoreGraphics.framework */,
@@ -123,8 +167,16 @@
 				DE8AF579170A883A0064B975 /* LPAppDelegate.m */,
 				DE8AF587170A883A0064B975 /* LPViewController.h */,
 				DE8AF588170A883A0064B975 /* LPViewController.m */,
+				DE585C90170B236F002C5195 /* LPEqualizerViewController.h */,
+				DE585C91170B236F002C5195 /* LPEqualizerViewController.m */,
+				DE585C93170B5BA9002C5195 /* LPLocationViewController.h */,
+				DE585C94170B5BA9002C5195 /* LPLocationViewController.m */,
+				DE585C8D170B1312002C5195 /* LPAudioHost.h */,
+				DE585C8E170B1312002C5195 /* LPAudioHost.m */,
 				DE8AF581170A883A0064B975 /* MainStoryboard_iPhone.storyboard */,
 				DE8AF584170A883A0064B975 /* MainStoryboard_iPad.storyboard */,
+				DE585C85170AFB05002C5195 /* albumart.jpg */,
+				DE585C9D170BD97F002C5195 /* TPCircularBuffer */,
 				DE8AF570170A883A0064B975 /* Supporting Files */,
 			);
 			path = LocalPlayer;
@@ -241,6 +293,7 @@
 				DE8AF580170A883A0064B975 /* Default-568h@2x.png in Resources */,
 				DE8AF583170A883A0064B975 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DE8AF586170A883A0064B975 /* MainStoryboard_iPad.storyboard in Resources */,
+				DE585C86170AFB05002C5195 /* albumart.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +331,11 @@
 				DE8AF576170A883A0064B975 /* main.m in Sources */,
 				DE8AF57A170A883A0064B975 /* LPAppDelegate.m in Sources */,
 				DE8AF589170A883A0064B975 /* LPViewController.m in Sources */,
+				DE585C8F170B1312002C5195 /* LPAudioHost.m in Sources */,
+				DE585C92170B236F002C5195 /* LPEqualizerViewController.m in Sources */,
+				DE585C95170B5BA9002C5195 /* LPLocationViewController.m in Sources */,
+				DE585CA2170BD97F002C5195 /* TPCircularBuffer+AudioBufferList.c in Sources */,
+				DE585CA3170BD97F002C5195 /* TPCircularBuffer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +526,7 @@
 				DE8AF5A3170A883A0064B975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE8AF5A4170A883A0064B975 /* Build configuration list for PBXNativeTarget "LocalPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +535,7 @@
 				DE8AF5A6170A883A0064B975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
